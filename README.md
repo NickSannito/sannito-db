@@ -6,10 +6,12 @@ Sends you a customized email every morning, with information of interest, such a
 
 ## Installation
 
-Create a copy of this [template repo](https://github.com/prof-rossetti/daily-briefings-py), then clone or download your new repo onto your local computer (for example to the Desktop), and navigate there from the command-line:
+Create a copy of this [template repo](https://github.com/prof-rossetti/daily-briefings-py), then clone or download your new repo onto your local computer (for example to Github Desktop in the Documents Folder), and navigate there from the command-line:
 
 ```sh
-cd ~/Desktop/daily-briefings-py/
+cd Documents 
+cd Github
+cd sannito-db
 ```
 
 Use Anaconda to create and activate a new virtual environment, perhaps called "briefings-env":
@@ -95,7 +97,7 @@ flask run
 Running tests:
 
 ```sh
-pytest
+pytest 
 
 # in CI mode:
 CI=true pytest
